@@ -1,5 +1,6 @@
-# RiZoeL X Spam - Spam Userbots
-# © 2021 - 2022 - TheRiZoeL
+✖‿✖•Ajͥeeͣtͫ:
+# ᴀᴊᴇᴇᴛ X ꜱᴘᴀᴍ - Spam Userbots
+# © 2021 - 2022 - ᴛʜᴇᴀᴊᴇᴇᴛ
 
 import os
 import sys
@@ -69,6 +70,7 @@ def get_readable_time(seconds: int) -> str:
 @Riz30.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @Riz31.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @Riz32.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
+
 @Riz33.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @Riz34.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 @Riz35.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
@@ -86,32 +88,32 @@ async def ping(e):
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        pingop = f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\nϟ ʀɪᴢᴏᴇʟ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs"                   
+        pingop = f"█▀█ █▀█ █▄░█ █▀\n█▀▀ █▄█ █░▀█ █▄█\n\nϟ 𝘼𝙅𝙀𝙀𝙏 𓆩𝙓𓆪 𝙎𝙋𝘼𝙈 ϟ︎ {ms} ᴍs"                   
         await fuk.edit(pingop)
 
 
 # ALIVE
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/f8982091750552187e6c5.jpg"
 
 
-rizoel = "✧ 𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✧\n\n"
+rizoel = "✧ 𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝗦𝐏𝐀𝐌 𝗛𝐄𝐑𝐄 ✧\n\n"
 
 rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
 
-rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
+rizoel += f"┣➣ ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : 3.9.6\n"
 
-rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
+rizoel += f"┣➣ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ : {version.version}\n"
 
-rizoel += f"┣➣ **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f"┣➣ ᴀᴊᴇᴇᴛXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ  : {rizoelversion}\n"
     
-rizoel += f"┣➣ **sᴜᴘᴘᴏʀᴛ** : [JOIN](https://t.me/DNHxHELL)\n"
+rizoel += f"┣➣ sᴜᴘᴘᴏʀᴛ : [JOIN](https://t.me/modern_elements)\n"
 
-rizoel += f"┣➣ **ᴄʜᴀɴɴᴇʟ** : [JOIN](https://t.me/RiZoeLX)\n"
+rizoel += f"┣➣ ᴄʜᴀɴɴᴇʟ : [JOIN](https://t.me/The_Professor_Network)\n"
 
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
-rizoel += f"🖤 [𝐑𝐄𝐏𝐎](https://github.com/MrRizoel/RiZoeLXSpam) 🖤"            
+rizoel += f"🖤 [𝐑𝐄𝐏𝐎](https://github.com/Ajsites2324/RiZoeLXSpam) 🖤"            
                                     
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%salive" % hl))
 async def alive(event):
@@ -123,31 +125,31 @@ async def alive(event):
    
 # help
 
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://te.legra.ph/file/f8982091750552187e6c5.jpg"
 
-RiZoeLX = "🔥 𝗥𝗜𝗭𝗢𝗘𝗟 𝗫 𝗦𝗣𝗔𝗠 🔥\n\n"
+RiZoeLX = "🔥😈 𝐀𝐉𝐄𝐄𝐓 𓆩𝗫𓆪 𝗦𝗣𝗔𝗠 😈🔥\n\n"
  
-RiZoeLX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ʀɪᴢᴏᴇʟ x sᴘᴀᴍ__\n\n"
+RiZoeLX += f"ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴀᴊᴇᴇᴛ x sᴘᴀᴍ\n\n"
 
 RiZoeLX += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
-RiZoeLX += f" `.ping` - `.alive` - `.setname` - `.setbio` - `.inviteall` - .`restart` - `.update` - `.stats` - `.addsudo` \n\n"
+RiZoeLX += f" .ping - .alive - .setname - .setbio - .inviteall - .restart - .update - .stats - .addsudo \n\n"
  
 RiZoeLX += f" ↧ 𝙹𝙾𝙸𝙽/𝙻𝙴𝙰𝚅𝙴 𝙲𝙼𝙳𝚂 ↧\n\n"
 
-RiZoeLX += f" `.join` - `.pjoin` - `.leave`\n\n"
+RiZoeLX += f" .join - .pjoin - .leave\n\n"
  
 RiZoeLX += f" ↧ 𝚂𝙿𝙰𝙼 / 𝚁𝙰𝙸𝙳 𝙲𝙼𝙳𝚂 ↧\n\n"
 
-RiZoeLX += f" `.raid` - `.replyraid` - `.dreplyraid` - `.delayraid` \n\n `.spam` - `.bigspam` - `.delayspam` - `.abuse` \n\n"
+RiZoeLX += f" .raid - .replyraid - .dreplyraid - .delayraid \n\n .spam - .bigspam - .delayspam - .abuse \n\n"
 
 RiZoeLX += f" 𝙳𝙼 / 𝙴𝚌𝚑𝚘 𝙲𝚖𝚍𝚜 \n\n"
 
-RiZoeLX += f" `.dm` - `.dmraid` - `.dmspam` \n\n `.addecho` - `.rmecho` \n\n"
+RiZoeLX += f" .dm - .dmraid - .dmspam \n\n .addecho - .rmecho \n\n"
 
 RiZoeLX += f"All Cmds Uploaded : [•HERE•](https://t.me/Resourcez/4) \n\n"
  
-RiZoeLX += f"© @RiZoeLX | @DNHxHELL\n"
+RiZoeLX += f"© @The_Professor_Network | @modern_elements\n"
 
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -155,7 +157,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
      await Riz.send_file(event.chat_id,
                                   HELP_PIC,
-                                  caption=RiZoeLX)                                                         
+                                  caption=ƛʆЄЄƬҲ)                                                         
 
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
@@ -164,7 +166,9 @@ async def help(event):
 @Riz4.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @Riz5.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @Riz6.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+
 @Riz7.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
+
 @Riz8.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @Riz9.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
@@ -236,11 +240,13 @@ async def restart(e):
             pass
         try:
             await Riz9.disconnect()
-        except Exception:
+
+except Exception:
             pass
         try:
             await Riz10.disconnect()
-        except Exception:
+
+except Exception:
             pass
         try:
             await Riz11.disconnect()
@@ -365,3 +371,4 @@ async def restart(e):
 
         os.execl(sys.executable, sys.executable, *sys.argv)
         quit()
+
